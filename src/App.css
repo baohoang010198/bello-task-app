@@ -1,0 +1,30 @@
+
+.header{
+  
+  color: white;
+
+  height: auto;
+  max-height: 10vh;
+
+  display: flex;
+  justify-content: space-between;
+}
+.logo h1{
+  font-size: 30px;
+  color: white;
+}
+.setting .btn-add{
+  width: 600px;
+}
+.content{
+  height: auto;
+  min-height: 90vh;
+  width: 100%;
+}
+
+@media all and (max-width: 360px){
+  .logo h1{
+    font-size: 20px;
+    color: white;
+  }
+}

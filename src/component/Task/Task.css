@@ -1,0 +1,52 @@
+.task-container{
+    height: auto;
+
+    background-color: rgb(247, 247, 247);
+
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+
+    margin-bottom: 8px;
+
+}
+.task-header{
+    height: auto;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.task-delete{
+    font-size: 16px;
+}
+.task-delete:hover{
+    color: red;
+    cursor: pointer;
+}
+.task-content-wrap{
+    height: 70%;
+    padding: 5px;
+}
+.task-content{
+    padding: 8px;
+
+    height: 100%;
+
+    background-color: white;
+}
+.task-content:hover{
+    cursor: pointer;
+}
+.task-container:hover{
+    transition: all 0.5s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.task-tag{
+    height: auto;
+    width: 100%;
+}
+.description{
+    display: block;
+    height: auto;
+    
+}
